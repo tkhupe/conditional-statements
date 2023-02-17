@@ -13,7 +13,7 @@ console.log("True ✅ True ✅")
 
 
 
-if ((expression1 == !true) || (expression2 == true))
+if ((expression1 == false) || (expression2 == true))
  {
     console.log("True ✅ False ❌")
  }
@@ -21,12 +21,12 @@ if ((expression1 == !true) || (expression2 == true))
 
 
 
-if ((expression1 == true) || (expression2 == !true)) {
+if ((expression1 == true) || (expression2 == false)) {
     console.log("False ❌ True ✅")
 }
 
 
 
-if ((expression1 == true) || (expression2 == !true)) {
+if ((expression1 == true) || (expression2 == false)) {
     console.log("False ❌ False ❌")
 }
